@@ -1,0 +1,45 @@
+{
+  "name": "astroquarkus",
+  "description": "A template to make your website using Astro + Tailwind CSS.",
+  "version": "0.3.5",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && cpx \"./dist/**/*\" \"../../../build/resources/main/META-INF/resources\"",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier -w .",
+    "lint:eslint": "eslint . --ext .js,.ts,.astro",
+    "subfont": "subfont -ir --no-fallbacks --silent --root dist"
+  },
+  "devDependencies": {
+    "@astrojs/image": "0.9.1",
+    "@astrojs/partytown": "1.0.0",
+    "@astrojs/rss": "1.0.2",
+    "@astrojs/sitemap": "1.0.0",
+    "@astrojs/tailwind": "2.0.2",
+    "@astrolib/analytics": "0.2.4",
+    "@astrolib/seo": "0.2.1",
+    "@fontsource/inter": "4.5.13",
+    "@tailwindcss/typography": "0.5.7",
+    "@typescript-eslint/eslint-plugin": "5.38.1",
+    "@typescript-eslint/parser": "5.38.1",
+    "astro": "1.4.2",
+    "cpx": "1.5.0",
+    "astro-icon": "0.7.3",
+    "eslint": "8.24.0",
+    "eslint-plugin-astro": "0.19.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "flowbite": "^1.5.3",
+    "limax": "2.1.0",
+    "prettier": "2.7.1",
+    "prettier-plugin-astro": "0.5.5",
+    "reading-time": "1.5.0",
+    "subfont": "6.12.1",
+    "typescript": "4.8.4"
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  }
+}
